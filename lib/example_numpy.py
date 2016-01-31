@@ -197,13 +197,7 @@ class ExampleClass(object):
     Attribute and property types -- if given -- should be specified according
     to `PEP 484`_, though `PEP 484`_ conformance isn't required or enforced.
 
-    Attributes
-    ----------
-    attr1 : str
-        Description of `attr1`.
-    attr2 : Optional[int]
-        Description of `attr2`.
-
+   
 
     .. _PEP 484:
        https://www.python.org/dev/peps/pep-0484/
@@ -270,9 +264,9 @@ class ExampleClass(object):
 
         Parameters
         ----------
-        param1
+        param1 : float
             The first parameter.
-        param2
+        param2 : bool
             The second parameter.
 
         Returns
@@ -282,6 +276,10 @@ class ExampleClass(object):
 
         """
         return True
+        
+    def example_method2(self,foo, bar):
+        """ this should be self-explanatory """
+        pass
 
     def __special__(self):
         """By default special members with docstrings are included.

@@ -36,15 +36,31 @@ import example_numpy as example
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+autosummary_generate = True
 
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon','sphinx.ext.viewcode']
+#extensions = ['sphinx.ext.autodoc','sphinx.ext.napoleon','sphinx.ext.viewcode','sphinx.ext.autosummary']
+# 
+extensions = [  'sphinx.ext.viewcode','sphinx.ext.autodoc','numpydoc', 'sphinx.ext.autosummary' ]
 
-# extensions = [
-    # 
-    # 'sphinx.ext.viewcode',
-    # 'sphinx.ext.autodoc','numpydoc',
-    # 'sphinx.ext.autosummary' 
-# ]
+#extensions = ['sphinx.ext.autodoc', 'sphinx.ext.pngmath', 'numpydoc',
+#              'sphinx.ext.intersphinx', 'sphinx.ext.coverage',
+#              'sphinx.ext.doctest', 'sphinx.ext.autosummary',
+#              'matplotlib.sphinxext.plot_directive']
+
+
+# napoleon config
+# Napoleon settings
+napoleon_google_docstring = False
+napoleon_numpy_docstring = True
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -86,6 +102,7 @@ language = None
 #today = ''
 # Else, today_fmt is used as the format for a strftime call.
 #today_fmt = '%B %d, %Y'
+
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
