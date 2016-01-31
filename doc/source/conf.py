@@ -42,6 +42,9 @@ autosummary_generate = True
 # 
 extensions = [  'sphinx.ext.viewcode','sphinx.ext.autodoc','numpydoc', 'sphinx.ext.autosummary' ]
 
+# supress warnings during toctree generation. 
+numpydoc_class_members_toctree = False
+
 #extensions = ['sphinx.ext.autodoc', 'sphinx.ext.pngmath', 'numpydoc',
 #              'sphinx.ext.intersphinx', 'sphinx.ext.coverage',
 #              'sphinx.ext.doctest', 'sphinx.ext.autosummary',
