@@ -5,11 +5,12 @@
 Class documentation
 ========================
 
-.. autoclass:: example_numpy.ExampleClass
+.. currentmodule:: example_numpy
+
+.. autoclass:: ExampleClass
     :members:
 
 
 Function documentation
 ========================
 
-.. autofunction:: example_numpy.module_level_function

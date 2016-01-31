@@ -219,9 +219,8 @@ class ExampleClass(object):
         Either form is acceptable, but the two should not be mixed. Choose one
         convention to document the __init__ method and be consistent with it.
 
-        Note
-        ----
-        Do not include the `self` parameter in the ``Parameters`` section.
+        .. note::
+            Do not include the `self` parameter in the ``Parameters`` section.
 
         Parameters
         ----------
@@ -266,9 +265,8 @@ class ExampleClass(object):
     def example_method(self, param1, param2):
         """Class methods are similar to regular functions.
 
-        Note
-        ----
-        Do not include the `self` parameter in the ``Parameters`` section.
+        .. note::
+            Do not include the `self` parameter in the ``Parameters`` section.
 
         Parameters
         ----------
