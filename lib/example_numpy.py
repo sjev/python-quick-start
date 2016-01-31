@@ -2,7 +2,8 @@
 """Example NumPy style docstrings.
 
 This module demonstrates documentation as specified by the `NumPy
-Documentation HOWTO`_. Docstrings may extend over multiple lines. Sections
+Documentation HOWTO <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt>`_. 
+Docstrings may extend over multiple lines. Sections
 are created with a section header followed by an underline of equal length.
 
 Example
@@ -37,8 +38,7 @@ module_level_variable1 : int
     one convention to document module level variables and be consistent
     with it.
 
-.. _NumPy Documentation HOWTO:
-   https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt
+   
 
 """
 
