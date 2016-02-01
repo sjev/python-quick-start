@@ -278,7 +278,15 @@ class ExampleClass(object):
         return True
         
     def example_method2(self,foo, bar):
-        """ this should be self-explanatory """
+        """
+        print a label on a print.
+            
+        Parameters
+        ----------
+        foo : list of strings
+        bar : position on table in inch, a negative step will be made for x
+            
+        """
         pass
 
     def __special__(self):
