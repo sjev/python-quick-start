@@ -7,6 +7,8 @@ Class documentation
 
 .. currentmodule:: example_numpy
 
+ExampleClass
+--------------
 
 .. autoclass:: ExampleClass
     :members:
@@ -17,3 +19,4 @@ Class documentation
 Function documentation
 ========================
 
+.. autofunction:: module_level_function
