@@ -1,11 +1,22 @@
-
+.. currentmodule:: example_numpy
 
 .. automodule:: example_numpy
+
+Overview
+===========
+
+.. autosummary::
+  
+  module_level_function
+  example_generator
+  ExampleClass
+
     
 Class documentation
 ========================
 
-.. currentmodule:: example_numpy
+
+
 
 ExampleClass
 --------------
