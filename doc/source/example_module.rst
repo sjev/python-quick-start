@@ -1,5 +1,9 @@
 .. currentmodule:: example_numpy
 
+==============
+Numpy example
+==============
+
 .. automodule:: example_numpy
 
 Overview

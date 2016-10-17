@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    example_module
-   
+   ipython_directive
 
 Indices and tables
 ==================
