@@ -10,7 +10,6 @@
 Ipython  direcitives
 ====================
 
-
 Ipython can be invoked with  ``.. ipython:: python``
 
 
