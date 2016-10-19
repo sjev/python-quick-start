@@ -20,3 +20,22 @@ The `conf.py` file has been generated with `sphinx-autostart` and then edited by
 ## Building docs
 1. install `numpydoc` sphinx extension first ( `pip install numpydoc`)
 2. run `make html` in the `doc` folder
+
+## Publishing on github pages
+
+The pages can be published on a special `gh-pages` branch, where `index.html` must be in the root.
+
+1. checkout the `master` branch to a *separate* folder, create a new clean branch
+
+```
+git branch gh-pages
+git checkout gh-pages
+git symbolic-ref HEAD refs/heads/gh-pages
+rm .git/index
+git clean -fdx
+```
+
+2. build the docs
+3. copy biult docs to the location of `gh-pages` branch, add files, commit and push. 
+
+The docs for this project are published [here](http://sjev.github.io/numpy-sphinx-example).
