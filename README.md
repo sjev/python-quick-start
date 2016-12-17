@@ -23,19 +23,11 @@ The `conf.py` file has been generated with `sphinx-autostart` and then edited by
 
 ## Publishing on github pages
 
-The pages can be published on a special `gh-pages` branch, where `index.html` must be in the root.
+The pages can be published on github, either on a special branch named `gh-pages` or in a subfolder `docs` on the main branch.
+Using `docs` folder is the most convenient approach.
 
-1. checkout the `master` branch to a *separate* folder, create a new clean branch
-
-```
-git branch gh-pages
-git checkout gh-pages
-git symbolic-ref HEAD refs/heads/gh-pages
-rm .git/index
-git clean -fdx
-```
-
-2. build the docs
-3. copy biult docs to the location of `gh-pages` branch, add files, commit and push. 
+1. create `docs` folder and use it as a target for sphinx build.
+2. create a `.nojekyll` file, otherwise pages and directories starting with underscore will be ignored
+3. build and commit the docs
 
 The docs for this project are published [here](http://sjev.github.io/numpy-sphinx-example).
