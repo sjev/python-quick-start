@@ -13,6 +13,7 @@ Contents:
 
    example_module
    ipython_directive
+   example_notebook.ipynb
 
 Indices and tables
 ==================

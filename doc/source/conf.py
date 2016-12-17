@@ -46,6 +46,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'numpydoc', # used to parse numpy-style docstrings for autodoc
+    'nbsphinx', # notebook extension
     'IPython.sphinxext.ipython_directive',
     'IPython.sphinxext.ipython_console_highlighting',
     'sphinx.ext.todo',
