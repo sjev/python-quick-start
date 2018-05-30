@@ -1,8 +1,6 @@
-# numpy-sphinx-example
-Example project for documenting with sphinx numpy-style
+# Python quick start
+Example project for creating a module with a good structure, documentation and testing 
 
-This example project is a reference on how to create sphinx documentation.
-The source code resides in `lib` directory, the docs in `doc` directory.
 
 The `conf.py` file has been generated with `sphinx-autostart` and then edited by hand.
 
