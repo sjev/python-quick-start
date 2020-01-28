@@ -28,4 +28,4 @@ Using `docs` folder is the most convenient approach.
 2. create a `.nojekyll` file, otherwise pages and directories starting with underscore will be ignored
 3. build and commit the docs
 
-The docs for this project are published [here](http://sjev.github.io/numpy-sphinx-example).
+The docs for this project are published [here](http://sjev.github.io/python-quick-start/).
