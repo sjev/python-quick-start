@@ -6,6 +6,8 @@
 Welcome to sphinx numpy example's documentation!
 ================================================
 
+**documentation build date**: |today| 
+
 Contents:
 
 .. toctree::
