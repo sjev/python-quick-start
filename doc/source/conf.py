@@ -26,6 +26,8 @@ sys.path.insert(0, os.path.abspath('../../lib'))
 print('Path:')
 print(sys.path)
 
+if not os.path.exists('_static'): os.mkdir('_static')
+
 import example_numpy as example
 
 # -- General configuration ------------------------------------------------
@@ -39,7 +41,7 @@ import example_numpy as example
 
 
 #extensions = ['sphinx.ext.autodoc','sphinx.ext.napoleon','sphinx.ext.viewcode','sphinx.ext.autosummary']
-# 
+#
 #extensions = [  'sphinx.ext.viewcode','sphinx.ext.autodoc','numpydoc', 'sphinx.ext.autosummary' ]
 
 extensions = [
@@ -53,7 +55,7 @@ extensions = [
     'sphinx.ext.viewcode'
 ]
 
-# supress warnings during toctree generation. 
+# supress warnings during toctree generation.
 numpydoc_class_members_toctree = False
 
 
@@ -73,7 +75,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'sphinx numpy example'
-copyright = '2016, Jev Kuznetsov'
+copyright = '2020, Jev Kuznetsov'
 author = 'Jev Kuznetsov'
 
 # The version info for the project you're documenting, acts as replacement for

@@ -17,7 +17,6 @@ Ipython can be invoked with  ``.. ipython:: python``
 
 .. ipython:: python
 
-    import tradingWithPython as twp
     import pandas as pd
     import numpy as np
 
